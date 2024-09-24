@@ -1,0 +1,250 @@
+
+Sat Nov 25 2023 11:50:05 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 11:50:23 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 11:50:46 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 11:55:18 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 11:56:19 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 12:00:08 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 12:07:20 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 12:11:42 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 12:20:38 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 12:20:57 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 12:22:30 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 12:22:59 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 12:23:10 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Sat Nov 25 2023 12:31:22 GMT-0300 (Brasilia Standard Time) - erro: Log enviado com sucesso.;
+
+Thu Nov 30 2023 18:13:03 GMT-0300 (Brasilia Standard Time) - erro: Error: NJS-503: connection to host 192.168.0.1 port 1521 could not be established. (CONNECTION_ID=i1ieX2I6Y6OIYMdD+W8ZMQ==)
+connect ECONNREFUSED 192.168.0.1:1521;
+
+Sat Dec 23 2023 10:27:38 GMT-0300 (Brasilia Standard Time) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Sat Dec 23 2023 10:27:58 GMT-0300 (Brasilia Standard Time) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Sat Dec 23 2023 10:28:01 GMT-0300 (Brasilia Standard Time) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Mon Feb 05 2024 17:42:00 GMT-0300 (Brasilia Standard Time) - erro: Error: Route.get() requires a callback function but got a [object Undefined];
+
+Mon Feb 05 2024 17:42:07 GMT-0300 (Brasilia Standard Time) - erro: Error: Route.get() requires a callback function but got a [object Undefined];
+
+Mon Feb 05 2024 17:42:18 GMT-0300 (Brasilia Standard Time) - erro: Error: Route.get() requires a callback function but got a [object Undefined];
+
+Mon Feb 05 2024 18:08:48 GMT-0300 (Brasilia Standard Time) - erro: ReferenceError: EnvioBoletoAutomatico is not defined;
+
+Wed Feb 07 2024 18:00:17 GMT-0300 (Brasilia Standard Time) - erro: ReferenceError: arrayRegraBoleto is not defined;
+
+Wed Feb 07 2024 18:00:19 GMT-0300 (Brasilia Standard Time) - erro: ReferenceError: arrayRegraBoleto is not defined;
+
+Wed Feb 07 2024 18:00:25 GMT-0300 (Brasilia Standard Time) - erro: ReferenceError: arrayRegraBoleto is not defined;
+
+Wed Feb 07 2024 18:23:05 GMT-0300 (Brasilia Standard Time) - erro: ReferenceError: EnvioAutomaticoBoletoAll is not defined;
+
+Wed Feb 07 2024 18:23:25 GMT-0300 (Brasilia Standard Time) - erro: ReferenceError: EnvioAutomaticoBoletoAll is not defined;
+
+Wed Feb 07 2024 18:23:48 GMT-0300 (Brasilia Standard Time) - erro: ReferenceError: EnvioAutomaticoBoletoAll is not defined;
+
+Sat Mar 02 2024 23:05:02 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected identifier 'TP_BOLETO';
+
+Sat Mar 02 2024 23:05:08 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected identifier 'TP_BOLETO';
+
+Mon Mar 04 2024 17:22:02 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected token '.';
+
+Mon Mar 04 2024 17:22:28 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected token '.';
+
+Mon Mar 04 2024 23:14:46 GMT-0300 (Horário Padrão de Brasília) - erro: ReferenceError: CobrancaController is not defined;
+
+Mon Mar 04 2024 23:15:01 GMT-0300 (Horário Padrão de Brasília) - erro: ReferenceError: CobrancaController is not defined;
+
+Mon Mar 04 2024 23:15:26 GMT-0300 (Horário Padrão de Brasília) - erro: ReferenceError: CobrancaController is not defined;
+
+Mon Mar 04 2024 23:15:29 GMT-0300 (Horário Padrão de Brasília) - erro: ReferenceError: CobrancaController is not defined;
+
+Mon Mar 04 2024 23:15:38 GMT-0300 (Horário Padrão de Brasília) - erro: ReferenceError: CobrancaController is not defined;
+
+Mon Mar 04 2024 23:16:12 GMT-0300 (Horário Padrão de Brasília) - erro: ReferenceError: CobrancaController is not defined;
+
+Mon Mar 04 2024 23:17:08 GMT-0300 (Horário Padrão de Brasília) - erro: ReferenceError: CobrancaController is not defined;
+
+Mon Mar 04 2024 23:18:13 GMT-0300 (Horário Padrão de Brasília) - erro: ReferenceError: CobrancaController is not defined;
+
+Mon Mar 04 2024 23:18:32 GMT-0300 (Horário Padrão de Brasília) - erro: ReferenceError: CobrancaController is not defined;
+
+Sat Apr 20 2024 08:33:46 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: missing ) after argument list;
+
+Sat Apr 20 2024 08:33:49 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: missing ) after argument list;
+
+Sat Apr 20 2024 08:35:43 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat Apr 20 2024 08:36:28 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat Apr 20 2024 08:36:30 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat Apr 20 2024 08:36:31 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat Apr 20 2024 08:36:33 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Wed Apr 24 2024 16:30:34 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Wed Apr 24 2024 16:31:27 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Wed Apr 24 2024 16:32:00 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Wed Apr 24 2024 16:35:02 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat May 04 2024 11:04:39 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat May 04 2024 11:04:50 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat May 04 2024 11:16:22 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat May 04 2024 11:17:14 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat May 04 2024 11:18:09 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat May 04 2024 11:18:12 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat May 04 2024 11:21:34 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat May 04 2024 11:21:38 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat May 04 2024 11:22:11 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Invalid left-hand side in assignment;
+
+Sat May 04 2024 16:28:32 GMT-0300 (Horário Padrão de Brasília) - erro: Error: ENOENT: no such file or directory, stat 'C:\xampp\htdocs\ativia_boleto_app_node_js\src\pdfs\0010001113688000_14-4-2024.pdf';
+
+Mon May 06 2024 15:14:08 GMT-0300 (Horário Padrão de Brasília) - erro: Error: NJS-503: connection to host 192.168.0.1 port 1521 could not be established. (CONNECTION_ID=eZmjqOU1mywzxIurYR6uyg==)
+connect ETIMEDOUT 192.168.0.1:1521;
+
+Mon May 06 2024 15:46:00 GMT-0300 (Horário Padrão de Brasília) - erro: Error: NJS-503: connection to host 192.168.0.1 port 1521 could not be established. (CONNECTION_ID=i/UKWFNkfMOXDUdIaOLpbg==)
+connect ETIMEDOUT 192.168.0.1:1521;
+
+Mon May 06 2024 15:53:22 GMT-0300 (Horário Padrão de Brasília) - erro: TypeError: require(...) is not a function;
+
+Mon May 06 2024 15:53:34 GMT-0300 (Horário Padrão de Brasília) - erro: TypeError: require(...) is not a function;
+
+Mon May 06 2024 15:54:10 GMT-0300 (Horário Padrão de Brasília) - erro: TypeError: require(...) is not a function;
+
+Mon May 06 2024 15:56:12 GMT-0300 (Horário Padrão de Brasília) - erro: TypeError: require(...) is not a function;
+
+Mon May 06 2024 15:56:32 GMT-0300 (Horário Padrão de Brasília) - erro: TypeError: require(...) is not a function;
+
+Mon May 06 2024 15:57:07 GMT-0300 (Horário Padrão de Brasília) - erro: TypeError: qpdf.setQpdfPath is not a function;
+
+Mon May 06 2024 15:58:26 GMT-0300 (Horário Padrão de Brasília) - erro: TypeError: require(...) is not a function;
+
+Mon May 06 2024 15:59:25 GMT-0300 (Horário Padrão de Brasília) - erro: Error: NJS-500: connection to the Oracle Database was broken
+NJS-501: connection to host 192.168.0.1 port 1521 terminated unexpectedly. (CONNECTION_ID=FeNdz0E6Sov4U/cjhvnhRA==)
+read ECONNRESET;
+
+Mon May 06 2024 15:59:58 GMT-0300 (Horário Padrão de Brasília) - erro: Error: NJS-503: connection to host 192.168.0.1 port 1521 could not be established. (CONNECTION_ID=XYnxDzqUeTdmF8P1odfUTw==)
+connect ETIMEDOUT 192.168.0.1:1521;
+
+Mon May 06 2024 16:49:04 GMT-0300 (Horário Padrão de Brasília) - erro: Error: NJS-503: connection to host 192.168.0.1 port 1521 could not be established. (CONNECTION_ID=uD3lj1k2ME12Y69AL7I0qw==)
+connect ETIMEDOUT 192.168.0.1:1521;
+
+Thu May 16 2024 14:26:26 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Cannot find module './controllers/BoletoController'
+Require stack:
+- C:\xampp\htdocs\api_chamadas_node_js\src\routes.js
+- C:\xampp\htdocs\api_chamadas_node_js\src\server.js;
+
+Wed Jun 05 2024 19:42:56 GMT-0300 (Horário Padrão de Brasília) - erro: ReferenceError: CorretorController is not defined;
+
+Wed Jun 05 2024 19:43:18 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Cannot find module '../pdfs/Pdf.js'
+Require stack:
+- C:\xampp\htdocs\api_chamadas_node_js\src\controllers\CorretorController.js
+- C:\xampp\htdocs\api_chamadas_node_js\src\routes.js
+- C:\xampp\htdocs\api_chamadas_node_js\src\server.js;
+
+Mon Jul 01 2024 21:46:33 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Mon Jul 01 2024 21:47:27 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Mon Jul 01 2024 21:48:13 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Mon Jul 01 2024 21:49:19 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Mon Jul 01 2024 21:49:37 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Sat Jul 06 2024 12:22:40 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected identifier 'etapa';
+
+Mon Jul 08 2024 19:09:34 GMT-0300 (Horário Padrão de Brasília) - erro: Error [ERR_REQUIRE_ESM]: require() of ES Module C:\xampp\htdocs\ativia_app_node_js\node_modules\node-fetch\src\index.js from C:\xampp\htdocs\ativia_app_node_js\src\controllers\AppController.js not supported.
+Instead change the require of index.js in C:\xampp\htdocs\ativia_app_node_js\src\controllers\AppController.js to a dynamic import() which is available in all CommonJS modules.;
+
+Mon Jul 08 2024 19:10:08 GMT-0300 (Horário Padrão de Brasília) - erro: Error [ERR_REQUIRE_ESM]: require() of ES Module C:\xampp\htdocs\ativia_app_node_js\node_modules\node-fetch\src\index.js from C:\xampp\htdocs\ativia_app_node_js\src\controllers\AppController.js not supported.
+Instead change the require of index.js in C:\xampp\htdocs\ativia_app_node_js\src\controllers\AppController.js to a dynamic import() which is available in all CommonJS modules.;
+
+Mon Jul 08 2024 19:32:35 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected token '??=';
+
+Wed Jul 24 2024 18:29:36 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Wed Jul 24 2024 18:34:11 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Wed Jul 24 2024 18:34:19 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Wed Jul 24 2024 18:35:25 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Fri Jul 26 2024 21:01:40 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Identifier 'connection' has already been declared;
+
+Fri Aug 02 2024 21:40:29 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Tue Aug 20 2024 15:59:12 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Tue Aug 20 2024 16:12:28 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Wed Aug 21 2024 15:14:09 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected token '??=';
+
+Wed Aug 21 2024 15:14:52 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected token '??=';
+
+Wed Aug 21 2024 15:15:16 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected token '??=';
+
+Wed Aug 21 2024 18:35:17 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Cannot find module 'rtf-to-text'
+Require stack:
+- C:\xampp\htdocs\ativia_app_node_js\src\controllers\AppPdfController.js
+- C:\xampp\htdocs\ativia_app_node_js\src\routes.js
+- C:\xampp\htdocs\ativia_app_node_js\src\server.js;
+
+Wed Aug 21 2024 19:06:01 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Identifier 'fs' has already been declared;
+
+Thu Aug 22 2024 18:49:42 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected token 'async';
+
+Fri Aug 23 2024 15:10:27 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Cannot find module 'rtf-to-html'
+Require stack:
+- C:\xampp\htdocs\ativia_app_node_js\src\controllers\AppPdfController.js
+- C:\xampp\htdocs\ativia_app_node_js\src\routes.js
+- C:\xampp\htdocs\ativia_app_node_js\src\server.js;
+
+Fri Aug 23 2024 15:12:23 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Cannot find module 'rtf-to-html'
+Require stack:
+- C:\xampp\htdocs\ativia_app_node_js\src\controllers\AppPdfController.js
+- C:\xampp\htdocs\ativia_app_node_js\src\routes.js
+- C:\xampp\htdocs\ativia_app_node_js\src\server.js;
+
+Fri Aug 23 2024 15:13:28 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Cannot find module 'rtf-to-html'
+Require stack:
+- C:\xampp\htdocs\ativia_app_node_js\src\controllers\AppPdfController.js
+- C:\xampp\htdocs\ativia_app_node_js\src\routes.js
+- C:\xampp\htdocs\ativia_app_node_js\src\server.js;
+
+Fri Aug 23 2024 15:13:43 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Cannot find module 'rtf-to-html'
+Require stack:
+- C:\xampp\htdocs\ativia_app_node_js\src\controllers\AppPdfController.js
+- C:\xampp\htdocs\ativia_app_node_js\src\routes.js
+- C:\xampp\htdocs\ativia_app_node_js\src\server.js;
+
+Mon Aug 26 2024 14:12:48 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: missing ) after argument list;
+
+Mon Aug 26 2024 19:04:29 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected token ')';
+
+Tue Sep 24 2024 18:19:29 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
