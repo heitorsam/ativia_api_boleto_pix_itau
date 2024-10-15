@@ -248,3 +248,14 @@ Mon Aug 26 2024 14:12:48 GMT-0300 (Horário Padrão de Brasília) - erro: Syntax
 Mon Aug 26 2024 19:04:29 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected token ')';
 
 Tue Sep 24 2024 18:19:29 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Route.post() requires a callback function but got a [object Undefined];
+
+Wed Sep 25 2024 14:14:12 GMT-0300 (Horário Padrão de Brasília) - erro: SyntaxError: Unexpected token ',';
+
+Tue Oct 08 2024 14:11:50 GMT-0300 (Horário Padrão de Brasília) - erro: Error: Cannot find module 'node:crypto'
+Require stack:
+- C:\xampp\htdocs\ativia_api_boleto_pix_itau\node_modules\uuid\dist\rng.js
+- C:\xampp\htdocs\ativia_api_boleto_pix_itau\node_modules\uuid\dist\v1.js
+- C:\xampp\htdocs\ativia_api_boleto_pix_itau\node_modules\uuid\dist\index.js
+- C:\xampp\htdocs\ativia_api_boleto_pix_itau\src\controllers\BolecodeController.js
+- C:\xampp\htdocs\ativia_api_boleto_pix_itau\src\routes.js
+- C:\xampp\htdocs\ativia_api_boleto_pix_itau\src\server.js;
