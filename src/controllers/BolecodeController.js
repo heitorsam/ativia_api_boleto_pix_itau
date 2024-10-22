@@ -189,9 +189,62 @@ module.exports = {
       // Close the result set and connection
       await rs.close();
       await connection.close();
-  
-      // Return the result as JSON
-      return res.status(200).json(boletos);
+
+      //SALVANDO DADOS NO PHP
+      
+      try {
+
+        // Estrutura que será enviada para o PHP
+        const postData = {
+          boletos: boletos // Adiciona o array boletos ao objeto
+        };
+
+        console.log(JSON.stringify(postData, null, 2));
+
+        const response = await axios.post(
+            'http://enviabolatv.tangram.app.br/rotina_gera_carteirinha/api/proc_envio_boleto_pix_itau.php',
+            postData,
+            {
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+
+        console.log(response.data);
+            
+        const lista = response.data;
+
+        console.log('lista.id_retorno: ', lista.id_retorno);
+        
+        const resposta = {
+            codAcao: lista.id_retorno,
+            msgInterna: lista.message,
+            msgExterna:lista.message_externa,
+            msgExternaExibir: "0",
+            statusVersao: 1,
+            statusVersaoMsg: ""
+        };
+            
+        res.status(200).json(resposta);
+     
+    } catch (err) {
+
+        console.error(err.toString());
+
+        console.error('Erro ao processar a solicitação:', err.toString());
+
+        const mensagem_erro = {
+            codAcao: 2,
+            msgInterna: "OK",
+            msgExterna: "Erro interno ao processar a solicitação.",
+            msgExternaExibir: "1",
+            statusVersao: 1,
+            statusVersaoMsg: "Erro interno ao processar a solicitação."
+        };
+
+        return res.status(200).json(mensagem_erro);
+    }
   
     } catch (error) {
       console.error('Erro ao gerar o boleto:', error);
@@ -200,120 +253,3 @@ module.exports = {
   }
 
 };
-
-/*
-
-  // Dados do boleto para enviar no POST
-  const boletoData = {
-    "etapa_processo_boleto": "efetivacao",
-    "beneficiario": {
-      "id_beneficiario": "150000052061"
-    },
-    "dado_boleto": {
-      "tipo_boleto": "a vista",
-      "descricao_instrumento_cobranca": "boleto_pix",
-      "texto_seu_numero": "000001",
-      "codigo_carteira": "110",
-      "valor_total_titulo": "90000000000030000",
-      "codigo_especie": "01",
-      "data_emissao": "2022-03-25",
-      "valor_abatimento": "00000000000000010",
-      "negativacao": {
-        "negativacao": "8",
-        "quantidade_dias_negativacao": "010"
-      },
-      "pagador": {
-        "pessoa": {
-          "nome_pessoa": "Joao Silva",
-          "nome_fantasia": "Joao Silva",
-          "tipo_pessoa": {
-            "codigo_tipo_pessoa": "F",
-            "numero_cadastro_pessoa_fisica": "26556923221"
-          }
-        },
-        "endereco": {
-          "nome_logradouro": "Av do Estado, 5533",
-          "nome_bairro": "Mooca",
-          "nome_cidade": "Sao Paulo",
-          "sigla_UF": "SP",
-          "numero_CEP": "04135010"
-        }
-      },
-      "sacador_avalista": {
-        "pessoa": {
-          "nome_pessoa": "Sacador Teste",
-          "tipo_pessoa": {
-            "codigo_tipo_pessoa": "F",
-            "numero_cadastro_pessoa_fisica": "38365972841"
-          }
-        },
-        "endereco": {
-          "nome_logradouro": "Av do Estado, 5533",
-          "nome_bairro": "Mooca",
-          "nome_cidade": "Sao Paulo",
-          "sigla_UF": "SP",
-          "numero_CEP": "04135010"
-        }
-      },
-      "dados_individuais_boleto": [
-        {
-          "numero_nosso_numero": "12345678",
-          "data_vencimento": "2022-07-30",
-          "texto_uso_beneficiario": "000001",
-          "valor_titulo": "00000000000010001",
-          "data_limite_pagamento": "2022-10-30"
-        }
-      ],
-      "juros": {
-        "data_juros": "2022-09-30",
-        "codigo_tipo_juros": "93",
-        "valor_juros": "00000000000000010"
-      },
-      "multa": {
-        "codigo_tipo_multa": "02",
-        "percentual_multa": "000000100001",
-        "data_multa": "2022-10-30"
-      },
-      "lista_mensagem_cobranca": [
-        {
-          "mensagem": "mensagem 1"
-        }
-      ],
-      "desconto": {
-        "codigo_tipo_desconto": "02",
-        "descontos": [
-          {
-            "data_desconto": "2022-06-30",
-            "valor_desconto": "00000000000010000",
-            "percentual_desconto": "000000001010"
-          }
-        ]
-      }
-    },
-    "dados_qrcode": {
-      "chave": "pjoperador@gmail.com",
-      "id_location": 789
-    }
-  };
-
-*/
-
-
-/*
-
-  // Chamada para a API de geração de boletos com PIX
-  const response = await axios.post(boletoUrl, boletoData, {
-    httpsAgent: agent,
-    headers: {
-      'Authorization': `Bearer ${token}`,
-      'Content-Type': 'application/json',
-      'Accept': 'application/json',
-      'x-itau-correlationID': correlationID // Passa o correlationID gerado
-      //'x-sandbox-token': `Bearer ${token}`
-    },
-  });
-
-  console.log('Boleto gerado com sucesso:', response.data);
-  return res.status(200).json(response.data);
-
-*/
