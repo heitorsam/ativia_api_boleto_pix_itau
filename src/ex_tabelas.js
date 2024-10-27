@@ -12,7 +12,9 @@ async function runApp()
     let h = await connection.execute( `alter session set nls_date_format = 'dd/mm/yyyy'`, [], { resultSet: true, outFormat: oracledb.OUT_FORMAT_OBJECT });
     
     let result = await connection.execute( 
-      `SELECT * FROM TASY.ativia_tangram_neg_bol_dados`, 
+      `select * from TASY.ativia_tangram_neg_bol_dados b
+where 1=1
+and B.texto_seu_numero = 2338900`, 
       [], { resultSet: true, outFormat: oracledb.OUT_FORMAT_OBJECT }
     );
     

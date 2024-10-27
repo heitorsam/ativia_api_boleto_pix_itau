@@ -1,4 +1,5 @@
 ALTER PROCEDURE USP_STG_GERA_BOLETO_ITAU
+	@ID_PK BIGINT,
     @etapa_processo_boleto NVARCHAR(200),
     @beneficiario_id_beneficiario NVARCHAR(200),
     @dado_boleto_tipo_boleto NVARCHAR(200),
@@ -169,7 +170,7 @@ BEGIN
             UPDATE ETL_TEMP_CARGA_ATV_GERA_BOLETO_ITAU
             SET TP_STATUS = @TP_STATUS,
                 data_hora_alteracao = GETDATE()
-            WHERE dados_individuais_boleto_numero_nosso_numero = @dados_individuais_boleto_numero_nosso_numero;
+            WHERE id = @ID_PK;
 
             SET @ID_RET = 0;
             SET @DS_RET = 'Atualizado com sucesso';
